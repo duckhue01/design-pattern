@@ -1,0 +1,21 @@
+intent:
+  factory method is a creational design pattern that provides an interface for 
+  creating object in super class. but allow the sub class alter the type of object
+  will be created
+
+applicability:
+  use when we don't know beforehand the exact types and dependencies of the object
+  your code should work with (easy to introduce new product)
+  -> factory method use separate class for creating a product so that when we add new
+  product to the app it don't effect to the rest of the code
+  
+  use when you want your customer have ability to extend internal components
+
+  use when you want the system save resource instead of create new object each time
+
+cons: 
+  single responsibility principle
+  open/closed principle
+  voiding tight coupling between creator and concrete product
+pos:
+  code may becoming more complicated because you have to introduce a lot of factory class
