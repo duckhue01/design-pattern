@@ -1,0 +1,30 @@
+
+intent:
+  Abstract Factory is creational design pattern that lets you produce families of related object without 
+  specifying their concrete classes
+
+applicability:
+  use abstract factory when your code work with families of related product, but you don't want it 
+  depend on concrete classes of that product - they might be unknown beforehand or you just want to
+  allow for future extensibility
+
+
+  -> consider implementing the abstract factory when you have a class with a set of factory method
+  that blur its primary responsibility
+
+
+cons:
+  you avoid tight coupling between concrete products with client code
+
+  single responsibility principle: each factory class just taking create product job
+
+  open/closed principle: you can introduce new variant of product without breaking client code and even
+  modify the exiting code
+
+  you can sure that product you are getting from factory is compatible with each other
+
+
+
+pos:
+  the code may become more complicated than it should be, since a lot of new classes and interface
+  are introduced along with pattern
