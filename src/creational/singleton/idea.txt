@@ -1,0 +1,21 @@
+intent:
+  singleton is creational design pattern that let you ensure that you class just have only one
+  instance, while provide a global access to that instance;
+applicability:
+
+  use singleton design pattern when you want your class just has just one instance
+
+  use singleton when you need stricter control over global variables
+
+pros:
+  you can ensure that a class just has only one instance
+
+  you gain a global access to that instance
+
+  the singleton object just initialize only when it's requested for the first time
+
+cons:
+
+  violates the single responsibility principle. the pattern solve two problem at the same time
+
+  hard to test

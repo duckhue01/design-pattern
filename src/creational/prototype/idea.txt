@@ -1,0 +1,19 @@
+intent:
+  prototype is creational design pattern that lets you copy existing object without making
+  your code dependent on their classes
+
+
+
+applicability:
+  use prototype pattern when you want your code don't depend on the concrete classes of objects
+  that your need to copy
+
+  clone private filed
+
+pros:
+  you can clone objects without  coupling to their concrete classes
+
+  you can produce complex object more conveniently
+
+cons:
+  cloning complex objects that that have circular references might be very tricky

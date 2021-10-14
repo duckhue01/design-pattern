@@ -1,0 +1,23 @@
+intent:
+  builder is a creational design pattern that lets you construct complex objects step by step
+  the pattern allow you produce difference type and representation of an object using the same
+  constructor code
+
+applicability:
+  use the builder pattern to get rid of a ugly constructor
+  
+  use builder pattern when you want your code to be able to create different representation of 
+  some product
+
+  Use the Builder to construct Composite trees or other complex objects.
+
+cons:
+  you can create object step by step
+  
+  you can reuse the same constructor code when building various representation of products
+  
+  single responsibility principle
+pros:
+
+  the overall complexity  of the code increases since the pattern require creating multiple 
+  new classes
