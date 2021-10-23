@@ -1,0 +1,28 @@
+intent:
+  Bridge is structural design pattern that let you split a large class or set of
+  closely related classes into two hierarchies - abstraction and implementation
+  which can be developed independently of each other
+
+applicability:
+
+  use the pattern when you want to divide and organized monolithic class that
+  has several of some functionality (a class can work with various database)
+
+  use the pattern when you want to extend class in several independent dimensions
+
+  use pattern when you need to be able switch implementation at the runtime
+
+
+pros:
+  you can create platform-independent class or app
+
+  the client  work with higher level abstraction. it is'nt exposed to the
+  platform details
+
+  open/close principle: you can introduce new abstraction and implementation
+  independently to each other 
+
+  single responsibility principle: each class has separate responsibility
+cons:
+
+  you might make code more complicated by applying pattern to a highly cohesive class

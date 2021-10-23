@@ -1,0 +1,27 @@
+
+intent:
+
+
+
+applicability:
+  use the command pattern when you want to parametrize object with operations
+
+  use the command pattern when you want to queue operations, schedule their execution, or
+  execute them 
+  
+  use the command pattern when you want to implement reversible operations
+
+pros: 
+  single responsibility principle
+
+  open/close principle 
+
+  you can implement undo/redo
+
+  you can implement deferred execution of operations
+
+  you can assemble a set of simple command into a complex one
+
+cons:
+  the code may become more complicated sine you're introducing a whole new layer between senders
+  and receivers

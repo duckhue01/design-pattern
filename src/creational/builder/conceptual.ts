@@ -83,3 +83,4 @@ function clientCode (director: Director) {
 }
 
 clientCode(new Director());
+export {}

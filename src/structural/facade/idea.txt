@@ -1,0 +1,12 @@
+intent:
+  facade is structural design pattern that provides simplified interface  to a library,
+  a framework or any other complex set of classes.
+
+applicability:
+  use facade when you want to have a limited but straightforward interface to a complex
+  subsystem
+pros:
+  you can avoid client interact with complex subsystem
+
+cons:
+  the facade can become a god class that mean it interact with all class of an application

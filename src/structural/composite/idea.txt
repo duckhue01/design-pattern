@@ -1,0 +1,16 @@
+
+intent:
+  composite is structural design pattern that let you compose object into a tree-like
+  structures and then work with these structure as if they were individual object
+
+applicability:
+  use composite design pattern when you  want to implement tree-like object structure
+
+  use the pattern when u want client code treat with both complex and simple object uniformly
+pros:
+  you can work with  complex tree more conveniently
+  
+  open/close principle
+
+cons:
+

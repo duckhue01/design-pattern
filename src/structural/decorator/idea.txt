@@ -1,0 +1,27 @@
+intent:
+  decorator is structural design pattern that lets you attach new behaviors to objects by
+  placing these objects inside special wrapper object that contain the behavior
+applicability:
+
+  use decorator when you need to be able to assign extra behaviors to objects at runtime
+  without breaking the code that uses these objects.
+
+  use the pattern when it's awkward or not possible to extend an object's behavior using 
+  inheritance
+
+
+pros: 
+  single responsibility principle. you can divide a monolithic class that implement many
+  possible variants of behavior into several smaller classes
+
+  you can extend an object's behavior without making a new subclass
+
+  you can combine several behaviors by wrapping an object into multiple decorators
+
+cons:
+  it's hard to remove a specific wrapper from the wrappers stack
+  
+  the initial configuration code of layers might look pretty ugly
+
+  it's hard to implement a decorator in such a way that its behavior doesn't depend on the 
+  order in the decorators stack.
