@@ -1,0 +1,2 @@
+### Prototype design pattern
+the aim of the prototype pattern is to have an object or a set of objects that is already created at compilation time, but which you can clone as many time as you want at runtime. This is useful, for example, as a default template for a user who has just
