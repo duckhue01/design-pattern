@@ -1,3 +1,3 @@
-module duckhue01/ds
+module github.com/duckhue01/learn/dp
 
-go 1.17
+go 1.18
